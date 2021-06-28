@@ -4,14 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:weightSum="2"
+    android:weightSum="6"
     android:orientation="vertical"
     tools:context=".MainActivity"
     android:background="@drawable/bgrgg">
     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        >
+
+    </LinearLayout>
+    <LinearLayout
         android:gravity="center"
         android:layout_margin="10dp"
-        android:layout_weight="1"
+        android:layout_weight="2"
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -75,7 +82,7 @@
     <LinearLayout
         android:orientation="vertical"
         android:layout_margin="10dp"
-        android:layout_weight="1"
+        android:layout_weight="2"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         >
@@ -145,6 +152,13 @@
 
             </Button>
         </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+
     </LinearLayout>
 
 </LinearLayout>
